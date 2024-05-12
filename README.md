@@ -70,4 +70,4 @@ fn main(){
 
 ### Acknowlegement
 
-+ Parts of the code is borrowed or based on the excellent project [Pymatgen](https://github.com/materialsproject/pymatgen). 
++ Parts of the code is inspired or based on the excellent project [Pymatgen](https://github.com/materialsproject/pymatgen). 
