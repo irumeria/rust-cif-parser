@@ -21,6 +21,7 @@ pub struct Structure {
     pub positions: Array2<f64>,
     pub frac_positions: Array2<f64>,
     pub atom_symbols: Vec<String>,
+    pub symops: Vec<Symmetry>,
 }
 ```
 Noted that the `Array`s is from the [rust-ndarray](https://github.com/rust-ndarray/ndarray).
