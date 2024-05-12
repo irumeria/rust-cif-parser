@@ -1,0 +1,13 @@
+[package]
+name = "cif-parser"
+version = "0.1.0"
+edition = "2021"
+authors = ["Iru."]
+description = "A CIF (Crystallographic Information File) parser for Rust."
+
+
+[dependencies]
+rand = "*"
+ndarray = "*"
+ndarray-linalg = {version = "0.16.*", features = ["openblas-static"]}
+regex = "1.10.*"
