@@ -29,7 +29,6 @@ Noted that the `Array`s is from the [rust-ndarray](https://github.com/rust-ndarr
 
 We can analysis the spacegroup and symmetric operations by using the rust wapper of spglib [spglib-rs](https://github.com/spglib/spglib-rs).
 
-The 
 ```rust
 extern crate spglib;
 
