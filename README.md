@@ -68,6 +68,6 @@ fn main(){
 
 + The lines inside `_symmetry_equiv_pos_as_xyz` block **must** be surrounded by `'`, like : `'1/2+x,1/2+y,1/2+z'`
 
-### Acknowlegement
+### Acknowledgement
 
 + Parts of the code is inspired or based on the excellent project [Pymatgen](https://github.com/materialsproject/pymatgen). 
