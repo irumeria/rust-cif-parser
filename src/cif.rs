@@ -194,6 +194,7 @@ pub fn parse_cif(cif_path: &Path) -> Structure {
         positions: cart_coords ,
         frac_positions: atom_coords_ndarray,
         atom_symbols: atom_symbols,
+        symops: symops,
     };
     // println!("{:?}", structure);
     structure

@@ -2,6 +2,7 @@ use crate::cif::parse_cif;
 use ndarray::{array, stack, Array1, Array2, Axis};
 use ndarray_linalg::Norm;
 use std::path::Path;
+use crate::sym::Symmetry;
 
 fn unit_vector(vector: &Array1<f64>) -> Array1<f64> {
     vector / vector.norm()
@@ -23,6 +24,7 @@ pub struct Structure {
     pub positions: Array2<f64>,
     pub frac_positions: Array2<f64>,
     pub atom_symbols: Vec<String>,
+    pub symops: Vec<Symmetry>,
 }
 
 impl Structure {

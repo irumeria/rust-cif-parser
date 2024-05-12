@@ -3,6 +3,7 @@ extern crate ndarray;
 use regex::Regex;
 use ndarray::{s, Array1, Array2};
 
+#[derive(Debug, Clone)]
 pub struct Symmetry {
     pub rot_matrix: Array2<f64>,
     pub trans_vec: Array1<f64>,
