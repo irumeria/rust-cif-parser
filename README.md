@@ -9,7 +9,14 @@ This library is for parsing the cif file into a **Structure** struct. No grantee
 use cif_parser::cif::parse_cif;
 
 let cif_path = Path::new("assets/ABW-0.cif"); // read the cif 
-let structure = parse_cif(cif_path);
+let structure = parse_cif(&cif_path);
+```
+or
+```rust
+use cif_parser::structure::Structure;
+
+let cif_path = Path::new("assets/ABW-0.cif"); // read the cif 
+let structure = Structure.from_cif(&cif_path);
 ```
 
 The structure struct containing the members:
